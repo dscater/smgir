@@ -1,0 +1,49 @@
+body {
+    background-size: cover!important;
+    background-position: center!important;
+    background-repeat: no-repeat!important;
+    background: rgb(223, 28, 125)!important;
+}
+
+.login-box {
+    margin-top: -100px!important;
+    border: solid 3px#007fe7;
+    height: auto;
+    box-shadow: 0px 0px 20px 5px rgb(40, 196, 162);
+}
+
+.card {
+    margin-bottom: 0px;
+}
+
+.login-card-body {
+    color: black;
+    background: rgb(115, 245, 228)!important;
+    opacity: 0.9;
+}
+
+.input-group-text {
+    color: black!important;
+}
+
+.login-logo {
+    margin-bottom: 0px;
+    background: rgb(115, 245, 228)!important;
+    opacity: 0.9;
+    padding: 0px;
+}
+
+.login-logo a {
+    background: purple;
+    padding: 2px;
+    word-spacing: 0%;
+    width: 100%;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+
+.login-logo img {
+    height: 250px;
+    width: 90%;
+    max-width: 100%;
+}

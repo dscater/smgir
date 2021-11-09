@@ -1,0 +1,58 @@
+.abrir_cerrar {
+    border: solid 3px white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 0px;
+    top: 105px;
+    z-index: 11;
+}
+
+.abrir_cerrar:hover:focus {
+    border-color: white!important;
+}
+
+.info_actividad {
+    top: 120px;
+    position: fixed;
+    right: 0px;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.788);
+}
+
+.info_actividad.abierto {
+    animation: transicion 2s;
+}
+
+@keyframes transicion {
+    0% {
+        right: -25%;
+    }
+    100% {
+        right: 0%;
+    }
+}
+
+.info_actividad .card-body {
+    color: white;
+    background: transparent;
+}
+
+.info_actividad.cerrado {
+    right: 100%;
+    animation: transicion_cerrar 2s;
+}
+
+@keyframes transicion_cerrar {
+    0% {
+        right: 0%;
+    }
+    100% {
+        right: -100%;
+    }
+}
+
+.celdas_info {
+    opacity: 0.9;
+}
